@@ -1,0 +1,19 @@
+<header>
+  <ul>
+    <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['active']">About</a></li>
+    <li><a [routerLink]="['/proyecto']" [routerLinkActive]="['active']">Proyecto</a></li>
+    <li id="logo"><a href="#">Catella</a></li>
+    <li><a [routerLink]="['/crear-proyecto']" [routerLinkActive]="['active']">Crear-proyecto</a></li>
+    <li><a [routerLink]="['/contacto']" [routerLinkActive]="['active']">Contacto</a></li>
+    <!-- &NonBreakingSpace; -->
+  </ul>
+</header>
+<hr />
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+
+<footer>
+  Portafolio catellaTech! &copy;
+</footer>

@@ -1,0 +1,54 @@
+.container{
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.container .image{
+    float: left;
+    width: 27%;
+}
+
+.container .image img{
+    width: 100%;
+    
+}
+
+.container .data{
+    float: left;
+    width: 48%;
+    margin-left: 30px;
+}
+
+.button-edit,
+.button-delete{
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+.button-edit,
+.button-delete{
+    display: block;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-edit{
+    background: rgba(53, 103,164, 1);
+}
+
+.button-delete{
+    background: rgb(255, 0, 0);
+}
+
+.confirm{
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
